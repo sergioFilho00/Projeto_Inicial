@@ -40,7 +40,7 @@
             </plugin>
 
             <!-- Maven Jar Plugin -->
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
@@ -49,11 +49,11 @@
                         <manifest>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                             <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-                            <mainClass>Main</mainClass> <!-- Ajuste para sua classe principal -->
+                            <mainClass>Main</mainClass> &lt;!&ndash; Ajuste para sua classe principal &ndash;&gt;
                         </manifest>
                     </archive>
                 </configuration>
-            </plugin>
+            </plugin>-->
 
             <!-- Maven Compiler Plugin -->
             <plugin>
